@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #f472b6;
+  --secodary-color: #fbcfe8;
+  --black-color:  #000000;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--secodary-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  height: 100px;
+  width: auto;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+#section {
+  padding: 2rem 4rem;
+}
+
+#input {
+  display: block;
+  border: 1px solid var(--black-color);
+  border-radius: 0.5rem;
+  height: 10vh;
+  width: 80%;
+  padding: 1rem;
+}
+
+#btn-sumbit {
+  border: 1px solid var(--black-color);
+  margin: 2rem;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+}
+
+#output {
+  border: 1px solid var(--black-color);
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 10vh;
+  padding: 1rem;
+  overflow: scroll;
+  background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+
+
+
+
+ 
